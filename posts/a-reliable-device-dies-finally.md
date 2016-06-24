@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-I still remember it like it was yesterday. It was the year 2013 and during the time, I was a fan of Lumia phones, due to its Live Tiles and fluid operating system. There were two models released, the Lumia 820 and the 920, latter being the superior of the two. I decided to buy an 820 as I thought the device was more than enough for my needs. And by a set of unprecedented and unrelated events I ended up getting the 920.
+I still remember it like it was yesterday. It was the year 2013 and during the time, I was a fan of Lumia phones, due to its Live Tiles and fluid operating system. There were two models released, the Lumia 820 and the 920, latter being the superior of the two. I decided to buy an 820 as I thought the device was more than enough for my needs. And by a set of unprecedented and unrelated events <!-- TEASER_END --> I ended up getting the 920.
 
 # Pictures, Pictures, and Pictures
 
