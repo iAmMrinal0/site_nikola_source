@@ -26,7 +26,9 @@ The phone is a bit heavy but right for my hands and how I like it. I have used t
 7. Camera imports - 1
 8. Screen shots - 4
 
-As evident by the numbers, I have clicked around 6400 pictures and these are without considering the ones I have deleted. So it comes to around 6500+ pictures over the span of 3+ years and the photos resulted have been brilliant, to say the least. You can check a few of the pictures on my [instagram](https://instagram.com/iammrinal0){:target="_blank"}.
+As evident by the numbers, I have clicked around 6400 pictures and these are without considering the ones I have deleted. So over the span of 3+ years, it comes to around ~~6500+~~ 8650+ pictures, with the deleted ones as can be seen from the screen shot below of the local backup of pictures. The photos resulted have been brilliant, to say the least. You can check a few of the pictures on my [instagram](https://instagram.com/iammrinal0){:target="_blank"}.
+
+![Local backup of pictures](/images/camera-roll.png)
 
 ## Things the phone has gone through and has survived
 
