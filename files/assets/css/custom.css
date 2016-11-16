@@ -28,12 +28,12 @@
 
 
 
-ul.archive, ul.tags, div.e-content.entry-content ul {
+ul.archive, ul.tags {
     list-style: none;
     padding-left: 0px;
 }
 
-ul.tags li, div.e-content.entry-content ul li {
+ul.tags li {
     display: inline;
     padding: 5px;
     /*border: 1px solid #45748C;
