@@ -2,6 +2,7 @@ _site/
 *.pyc
 .DS_Store
 .doit.db.db
+.doit.db
 cache/
 output/
 themes/
