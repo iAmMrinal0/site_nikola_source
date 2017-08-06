@@ -672,7 +672,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 #
 # If the following is True, INDEXES_PAGES is also displayed on the main (the
 # newest) index page (index.html):
-INDEXES_PAGES_MAIN = True
+INDEXES_PAGES_MAIN = False
 #
 # If the following is True, index-1.html has the oldest posts, index-2.html the
 # second-oldest posts, etc., and index.html has the newest posts. This ensures
