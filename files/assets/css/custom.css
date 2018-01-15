@@ -71,7 +71,6 @@ hr:after {
     content: '</>';
     display: inline-block;
     position: relative;
-    top: -19px;
     padding: 0 10px;
     background: #f0f0f0;
     color: #8c8b8b;
