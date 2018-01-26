@@ -17,12 +17,12 @@ Now that I had two options, I started reading up on which was preferred and why 
 
 # Too many options, a bane?
 
-At times, it might happen that having so many options to use can be overwhelming. And this is what happened to me, because for a moment I never understood what exactly half of them meant. So I went through the documentation a few times and even then I couldn't understand things. And finally, I gave up and decided to ask the developers on their [Google Groups](https://groups.google.com/forum/#!forum/nikola-discuss){:target="_blank"} and before I knew it one of the developers responded and explained my queries.
+At times, it might happen that having so many options to use can be overwhelming. And this is what happened to me, because for a moment I never understood what exactly half of them meant. So I went through the documentation a few times and even then I couldn't understand things. And finally, I gave up and decided to ask the developers on their [Google Groups](https://groups.google.com/forum/#!forum/nikola-discuss) and before I knew it one of the developers responded and explained my queries.
 
 # So what should you use?
 
 Honestly, try both and use what fits your needs. I didn't quite find the proper themes in Pelican. This could have been an opportunity to create a theme, however I am not a design guy, so that's also a reason for me to prefer Nikola where I liked a theme and it fit right in. The one you see on this site is a heavily modified version of the original lanyon theme for Jekyll. If you like this you can check out my sources on GitHub at the following repositories:
 
-1. [Nikola source config](https://github.com/iammrinal0/site_nikola_source){:target="blank"}
-2. [Original Lanyon demo](http://lanyon.getpoole.com/){:target="blank"}
-3. [Modified Lanyon source](https://github.com/iammrinal0/lanyon){:target="blank"}
+1. [Nikola source config](https://github.com/iammrinal0/site_nikola_source)
+2. [Original Lanyon demo](http://lanyon.getpoole.com/)
+3. [Modified Lanyon source](https://github.com/iammrinal0/lanyon)

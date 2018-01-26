@@ -245,7 +245,7 @@ DATE_FANCINESS = 2
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
     "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
+    # "markdown": ('.md', '.mdown', '.markdown'),
     "textile": ('.textile',),
     "txt2tags": ('.t2t',),
     "bbcode": ('.bb',),
@@ -259,7 +259,7 @@ COMPILERS = {
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
-    # "pandoc": ('.rst', '.md', '.txt'),
+    "pandoc": ('.rst', '.md', '.txt'),
 }
 
 # Create by default posts in one file format?
@@ -964,7 +964,7 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # Extra options to pass to the pandoc comand.
 # by default, it's empty, is a list of strings, for example
 # ['-F', 'pandoc-citeproc', '--bibliography=/Users/foo/references.bib']
-# PANDOC_OPTIONS = []
+PANDOC_OPTIONS = ['-f', 'gfm']
 
 # Social buttons. This is sample code for AddThis (which was the default for a
 # long time). Insert anything you want here, or even make it empty (which is
