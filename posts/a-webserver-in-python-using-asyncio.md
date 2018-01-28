@@ -17,7 +17,7 @@ I commenced with moving the server from a threads based approach to the new and 
 
 In the older code base, the threads version, `2048` bytes were read from a socket every time, till there was no data to read, which looked inefficient. In the async based approach, I started with the same methodology till I found a method, in the async `reader` object called `readuntil` which I used to read till the delimiter `\r\n\r\n` which gives the complete header and for the body I took the `Content-Length` field from the header and used a method `readexactly` to read the exact bytes of the body.
 
-``` python3
+``` python
 def check_content(headers):
     if b"Content-Length" in headers:
         con_pos = headers.find(b"Content-Length")
@@ -27,7 +27,7 @@ def check_content(headers):
         return con_len
 ```
 
-``` python3
+``` python
 header = await reader.readuntil(b"\r\n\r\n")
 content_length = check_content(header)
 if content_length:
