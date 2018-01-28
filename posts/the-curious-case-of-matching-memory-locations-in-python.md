@@ -66,10 +66,10 @@ _Explanation:_ What Python does here is that it stores all integers from `-5` to
 Let me blow your mind even more with the following code:
 
 ``` python
-In [15]: id(257)
-Out[15]: 139944437173872
+In [13]: id(257)
+Out[13]: 139944437173872
 
-In [16]: print(id(257), id(257), id(257) == id(257))
+In [14]: print(id(257), id(257), id(257) == id(257))
 139944437171184 139944437171184 True
 ```
 
@@ -80,14 +80,14 @@ _Explanation:_ The reason is that when Python encounters constants in a single s
 Let's take it up a notch and try exploring more:
 
 ``` python
-In [17]: def func():
+In [15]: def func():
     ...:     a = 257
     ...:     b = 257
     ...:     return id(a) == id(b)
     ...:
 
-In [18]: func()
-Out[18]: True
+In [16]: func()
+Out[16]: True
 ```
 
 We found that for numbers above `256`, Python stores them in new memory locations unless they are used in the same line/statement. However in the above example, they are separate statements and still return `True` when we compare the memory locations. So why the odd behaviour?
