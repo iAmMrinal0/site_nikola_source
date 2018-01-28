@@ -11,7 +11,7 @@
 
 Hi, I am Mrinal Purohit and I go by `iammrinal0` on the interwebz. I am an undergraduate in Computer Science from Amrita School of Engineering, Coimbatore.
 
-I used to dabble with Python writing scripts, cli and web apps to solve trivial tasks. I have tried my hand at desktop application development, Windows 10/Windows Phone app development, however I am drawn to the Web. To check out my projects, head over to [GitHub](https://github.com/iammrinal0).
+I used to dabble with Python, writing scripts, cli and web apps to solve trivial tasks. I have tried my hand at desktop application development, Windows 10/Windows Phone app development, however I am drawn to the Web. To check out my projects, head over to [GitHub](https://github.com/iammrinal0).
 
 I was at GeekSkool for quite some time where I fiddled with Python, a bit of Haskell, and contributed to a language called [Clean](https://github.com/cleanlang/clean).
 
