@@ -96,7 +96,7 @@ div.column {display: inline-block; vertical-align: top; width: 50%;}
 a.sourceLine { display: inline-block; line-height: 1.25; }
 a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
 a.sourceLine:empty { height: 1.2em; position: absolute; }
-.sourceCode { overflow: visible; }
+.sourceCode { overflow: auto; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
