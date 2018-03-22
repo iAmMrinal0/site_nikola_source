@@ -112,7 +112,7 @@ tweetLens = lens (\(Tweet tweet) -> tweet) (\_ -> Tweet)
 
 locationProp = prop (SProxy :: SProxy "location")
 
-locationPersonLens = person <<< locationProp
+locationPersonLens = personLens <<< locationProp
 locationTweetLens = tweetLens <<< locationProp
 ```
 
