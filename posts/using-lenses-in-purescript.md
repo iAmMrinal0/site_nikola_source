@@ -72,7 +72,7 @@ getLocation :: forall a b c. Newtype a { location :: c | b } => a -> c
 getLocation = unwrap >>> _.location -- A
 ```
 
-Now this is generic enough which will work on all records which has a `Newtype` instance and has a `location` field in the record. Also, if you notice the type signature of the function, you will find that we don't specify the type of `location` which means this would work for any type of the `location` field.
+Now this is generic enough which will work on all records which have a `Newtype` instance and have a `location` field in the record. Also, if you notice the type signature of the function, you will find that we don't specify the type of `location` which means this would work for any type of the `location` field.
 
 This is still not intuitive enough, and imagine every time having to write:
 
