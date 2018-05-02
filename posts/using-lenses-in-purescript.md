@@ -151,7 +151,7 @@ However, if you notice, you will find that we are creating a lot of lenses which
 ``` haskell
 _location :: forall a b c. Newtype a {location :: c | b} => Lens' a c
 _location = lens (unwrap >>> _.location)
-            (\record newValue -> wrap $ unwrap record { location = newValue })
+            (\record newValue -> wrap $ (unwrap record) { location = newValue })
 ```
 
 Now, does this not look generic enough? This would work for any record which has a `Newtype` instance and also has the field `location` and as our type definition is generic enough this can be used for any type of field `location`. And our accessor functions change to:
