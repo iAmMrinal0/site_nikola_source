@@ -60,3 +60,7 @@ Overall, it was extremely exciting and fun to ride with a group and also maintai
 
 <blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">It&#39;s not the elevations that kill us, it&#39;s the wrong gear ratios. First 100km and 150km ride done in a single shot. 🤟 <a href="https://t.co/8nmRJjKfD5">pic.twitter.com/8nmRJjKfD5</a></p>&mdash; Mrinal Purohit (@iAmMrinal0) <a href="https://twitter.com/iAmMrinal0/status/1010847154267656192?ref_src=twsrc%5Etfw">June 24, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Update:
+The amazing guys at CNL made this video
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/QOFnGjhKDvo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
