@@ -11,6 +11,8 @@
 
 I believe we all have come across interesting problems while programming and once we found the solution or an easier way to do it, we had our minds blown away. I had a similar feeling when I discovered `lenses` and started using them. No, I am not talking about <!-- TEASER_END --> my glasses or eye lenses. I am talking about `lenses` in [Haskell](https://github.com/ekmett/lens) or [PureScript.](https://github.com/purescript-contrib/purescript-profunctor-lenses) Incase you didn't know, we use PureScript at Juspay and after looking at the code for one of our projects, someone came up with a suggestion to use `lenses.` I had heard of the term, however never found a reason to use it. And now seemed like a good chance to do that.
 
+<b>Update:</b> If you've read this post already then you should check out the end as I've updated the post to describe a shorter way to define lenses.
+
 So let's start with the problem we have and how we would solve it. Let's say we have a lot of records which are wrapped in a constructor. Something like the following:
 
 ``` haskell
@@ -184,7 +186,19 @@ newTweet' = tweetRecord # _location .~ "Dagobah"
 
 So, that's it for a bit of basics on how to get started with `lens` and hope you understood. And if not, let me know in the comments and I will try to clarify them out.
 
+### Update
+
+Thanks to the functionalprogramming Slack group I came across an interesting and shorter way to define our lenses and what we did is basically the more verbose way. The shorter solution is just using helper functions which do the work of what we are doing above.
+
+``` haskell
+_location :: forall a b c. Newtype a {location :: c | b} => Lens' a c
+_location = _Newtype <<< prop (SProxy :: SProxy "location")
+```
+
+And that's it. The `prop` function gives us a getter and setter for the field `location` and the `_Newtype` function gives us an `iso` which does `unwrap` and `wrap` for us which we were performing in our older solution.
+
 ## References:
 1. Lenses by Simon Peyton Jones: [Skills Matter](https://skillsmatter.com/skillscasts/4251-lenses-compositional-data-access-and-manipulation)
 2. John Weigley: Putting lenses to work: [YouTube](https://www.youtube.com/watch?v=QZy4Yml3LTY)
 3. PureScript explanation of John Weigley's video by Dominick Gendill: [Blog](https://www.dgendill.com/posts/programming/2017-06-21-putting-lenses-to-work-in-purescript.html)
+4. Functional Programming Slack: [Invite link](https://fpchat-invite.herokuapp.com/) and [Team](https://functionalprogramming.slack.com/)
