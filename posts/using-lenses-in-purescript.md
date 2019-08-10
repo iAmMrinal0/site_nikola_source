@@ -197,6 +197,8 @@ _location = _Newtype <<< prop (SProxy :: SProxy "location")
 
 And that's it. The `prop` function gives us a getter and setter for the field `location` and the `_Newtype` function gives us an `iso` which does `unwrap` and `wrap` for us which we were performing in our older solution.
 
+Curious about what else lenses could do? Thomas Honeyman wrote a wonderful article on the practical approach to using lenses. Read more about it [here](https://thomashoneyman.com/articles/practical-profunctor-lenses-optics/).
+
 ## References:
 1. Lenses by Simon Peyton Jones: [Skills Matter](https://skillsmatter.com/skillscasts/4251-lenses-compositional-data-access-and-manipulation)
 2. John Weigley: Putting lenses to work: [YouTube](https://www.youtube.com/watch?v=QZy4Yml3LTY)
