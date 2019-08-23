@@ -796,15 +796,14 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-GITHUB = '<a class="fa fa-github" href="https://github.com/iammrinal0" title="GitHub" target="_blank"></a>'
-KEYBASE = '<a class="fa fa-key" href="https://keybase.io/iammrinal0" title="Keybase" target="_blank"></a>'
-LINKEDIN = '<a class="fa fa-linkedin" href="https://linkedin.com/in/iammrinal0" title="LinkedIn" target="_blank"></a>'
-GOODREADS = '<a class="fa" href="https://goodreads.com/iammrinal0" title="Goodreads" target="_blank">g</a>'
-FACEBOOK = '<a class="fa fa-facebook-f" href="https://facebook.com/iammrinal0" title="Facebook" target="_blank"></a>'
-TWITTER = '<a class="fa fa-twitter" href="https://twitter.com/iammrinal0" title="Twitter" target="_blank"></a>'
-INSTAGRAM = '<a class="fa fa-instagram" href="https://instagram.com/iammrinal0" title="Instagram" target="_blank"></a>'
+GITHUB = '<a class="fab fa-github" href="https://github.com/iammrinal0" title="GitHub" target="_blank"></a>'
+KEYBASE = '<a class="fab fa-keybase" href="https://keybase.io/iammrinal0" title="Keybase" target="_blank"></a>'
+LINKEDIN = '<a class="fab fa-linkedin" href="https://linkedin.com/in/iammrinal0" title="LinkedIn" target="_blank"></a>'
+STRAVA = '<a class="fab fa-strava" href="https://strava.com/athletes/iammrinal0" title="Strava" target="_blank"></a>'
+TWITTER = '<a class="fab fa-twitter" href="https://twitter.com/iammrinal0" title="Twitter" target="_blank"></a>'
+INSTAGRAM = '<a class="fab fa-instagram" href="https://instagram.com/iammrinal0" title="Instagram" target="_blank"></a>'
 
-CONTENT_FOOTER = '<hr>'+GITHUB+KEYBASE+LINKEDIN+GOODREADS+FACEBOOK+TWITTER+INSTAGRAM+'<br/>&copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by        <a href="https://getnikola.com" rel="nofollow" target="_blank">Nikola</a> with <a href="https://github.com/iammrinal0/lanyon" target="_blank">Lanyon</a> theme{license}'
+CONTENT_FOOTER = '<hr>'+GITHUB+KEYBASE+LINKEDIN+STRAVA+TWITTER+INSTAGRAM+'<br/>&copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by        <a href="https://getnikola.com" rel="nofollow" target="_blank">Nikola</a> with <a href="https://github.com/iammrinal0/lanyon" target="_blank">Lanyon</a> theme{license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -932,7 +931,7 @@ PRETTY_URLS = True
 # If you set USE_KATEX to True, you also need to add an extra CSS file
 # like this:
 EXTRA_HEAD_DATA = """
-<script src="https://use.fontawesome.com/fa20058d35.js"></script>
+<script src="https://kit.fontawesome.com/e00ed704cf.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -1052,7 +1051,7 @@ INDEX_DISPLAY_POST_COUNT = 5
 # <input type="text" name="q" class="form-control" placeholder="Search">
 # </div>
 # <button type="submit" class="btn btn-primary">
-# 	<span class="glyphicon glyphicon-search"></span>
+#       <span class="glyphicon glyphicon-search"></span>
 # </button>
 # <input type="hidden" name="sitesearch" value="%s">
 # </form>
