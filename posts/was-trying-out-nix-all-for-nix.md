@@ -65,4 +65,6 @@ Overall, the functional programming Slack group has been helpful. However, it wa
 
 ## Links
 
-My Nix configuration: [nix-config](https://github.com/iammrinal0/nix-config)
+* NixOS website: [Link](https://nixos.org/)
+* Cheatsheet for a mapping between Ubuntu and NixOS: [Link](https://nixos.wiki/wiki/Cheatsheet)
+* My Nix configuration: [nix-config](https://github.com/iammrinal0/nix-config)
