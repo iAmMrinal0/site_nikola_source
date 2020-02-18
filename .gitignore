@@ -6,3 +6,4 @@ _site/
 cache/
 output/
 themes/
+.venv
