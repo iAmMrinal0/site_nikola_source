@@ -57,7 +57,7 @@ pyrsistent==0.15.4
 PyRSS2Gen==1.1
 python-dateutil==2.7.5
 pytz==2019.2
-PyYAML==5.1
+PyYAML==5.4
 pyzmq==17.1.2
 requests==2.21.0
 ruamel.yaml==0.16.5
