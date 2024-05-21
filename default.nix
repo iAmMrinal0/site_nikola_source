@@ -2,7 +2,7 @@ with import <nixpkgs> { };
 
 let
   venvDir = "./.venv";
-  pythonPackages = python36Packages;
+  pythonPackages = python310Packages;
 in pkgs.mkShell rec {
   name = "impurePythonEnv";
   buildInputs = [
