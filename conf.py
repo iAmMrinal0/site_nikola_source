@@ -803,14 +803,23 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-GITHUB = '<a class="fab fa-github" href="https://github.com/iammrinal0" title="GitHub" target="_blank"></a>'
-KEYBASE = '<a class="fab fa-keybase" href="https://keybase.io/iammrinal0" title="Keybase" target="_blank"></a>'
-LINKEDIN = '<a class="fab fa-linkedin" href="https://linkedin.com/in/iammrinal0" title="LinkedIn" target="_blank"></a>'
-STRAVA = '<a class="fab fa-strava" href="https://strava.com/athletes/iammrinal0" title="Strava" target="_blank"></a>'
-TWITTER = '<a class="fab fa-twitter" href="https://twitter.com/iammrinal0" title="Twitter" target="_blank"></a>'
-INSTAGRAM = '<a class="fab fa-instagram" href="https://instagram.com/iammrinal0" title="Instagram" target="_blank"></a>'
+GITHUB = '<a class="fab fa-github" href="https://github.com/iammrinal0" title="GitHub" target="_blank" rel="noopener noreferrer"></a>'
+KEYBASE = '<a class="fab fa-keybase" href="https://keybase.io/iammrinal0" title="Keybase" target="_blank" rel="noopener noreferrer"></a>'
+LINKEDIN = '<a class="fab fa-linkedin" href="https://linkedin.com/in/iammrinal0" title="LinkedIn" target="_blank" rel="noopener noreferrer"></a>'
+STRAVA = '<a class="fab fa-strava" href="https://strava.com/athletes/iammrinal0" title="Strava" target="_blank" rel="noopener noreferrer"></a>'
+TWITTER = '<a class="fab fa-twitter" href="https://twitter.com/iammrinal0" title="Twitter" target="_blank" rel="noopener noreferrer"></a>'
+INSTAGRAM = '<a class="fab fa-instagram" href="https://instagram.com/iammrinal0" title="Instagram" target="_blank" rel="noopener noreferrer"></a>'
 
-CONTENT_FOOTER = '<hr>'+GITHUB+KEYBASE+LINKEDIN+STRAVA+TWITTER+INSTAGRAM+'<br/>&copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by        <a href="https://getnikola.com" rel="nofollow" target="_blank">Nikola</a> with <a href="https://github.com/iammrinal0/lanyon" target="_blank">Lanyon</a> theme{license}'
+CONTENT_FOOTER = (
+    "<hr>"
+    + GITHUB
+    + KEYBASE
+    + LINKEDIN
+    + STRAVA
+    + TWITTER
+    + INSTAGRAM
+    + '<br/>&copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by        <a href="https://getnikola.com" rel="nofollow noopener noreferrer" target="_blank">Nikola</a> with <a href="https://github.com/iammrinal0/lanyon" target="_blank" rel="noopener noreferrer">Lanyon</a> theme{license}'
+)
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
