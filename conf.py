@@ -818,7 +818,7 @@ CONTENT_FOOTER = (
     + STRAVA
     + TWITTER
     + INSTAGRAM
-    + '<br/>&copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by        <a href="https://getnikola.com" rel="nofollow noopener noreferrer" target="_blank">Nikola</a> with <a href="https://github.com/iammrinal0/lanyon" target="_blank" rel="noopener noreferrer">Lanyon</a> theme{license}'
+    + '<br/>&copy; <span id="current-year"></span>         <a href="mailto:{email}">{author}</a> - Powered by        <a href="https://getnikola.com" rel="nofollow noopener noreferrer" target="_blank">Nikola</a> with <a href="https://github.com/iammrinal0/lanyon" target="_blank" rel="noopener noreferrer">Lanyon</a> theme{license}'
 )
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
@@ -838,7 +838,6 @@ CONTENT_FOOTER_FORMATS = {
         {
             "email": BLOG_EMAIL,
             "author": BLOG_AUTHOR,
-            "date": time.gmtime().tm_year,
             "license": LICENSE
         }
     )
@@ -957,6 +956,14 @@ EXTRA_HEAD_DATA = """
   ga('create', 'UA-64263019-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var yearElement = document.getElementById('current-year');
+    if (yearElement) {
+      yearElement.textContent = new Date().getFullYear();
+    }
+  });
 </script>
 """
 # """<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">"""
